@@ -1,0 +1,632 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body{
+  background: rgb(31,13,58);
+  background: linear-gradient(180deg, rgba(31,13,58,1) 35%, rgba(0,212,255,1) 100%); 
+  background-repeat: no-repeat;
+  width: 355px;
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.nav-button{
+  background-color: transparent;
+  border: none;
+}
+
+.menu{
+  background-color: #E7E7E9;
+  width: 355px;
+  position:fixed;
+  bottom:0;
+
+}
+
+.container-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+
+
+
+.title-one{
+ 
+  font-size: larger;
+  font-weight: 700;
+  padding: 40px;
+  
+}
+
+
+.HomeDivOne{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px; 
+  position: relative;
+}
+
+.picture{
+  background-image: url(./img/pictures.png);
+  background-repeat: no-repeat;
+  width: 355px;
+  height: 500px;
+  position: absolute;
+
+       
+}
+
+.logo{
+  background-image: url(./img/logo-principal-chico.png);
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin-top: 270px;
+  margin-left: 170px;
+  position: absolute;
+}
+.HomeDivTwo{
+  margin-top: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  
+}
+.principal-button{
+  width: 280px;
+  height: 50px;
+  background-color: white;
+  color:black;
+  font-size: large;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 10px 5px 5px rgba(37, 37, 37, 0.1);
+  
+}
+.principal-button:hover{
+  background-color: rgb(31,13,58);
+  color: white;
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+.register-div{
+
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  color: white;
+
+  
+}
+.button-register{
+  padding: 10px;
+  font-weight: 800;
+  
+}
+
+.button-register:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.register-label{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ margin-top: 3px;
+ 
+}
+
+.condition-p{
+  margin-left: 20px;
+  width: 350px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+/* Pag de Registro*/
+
+
+.register-form{
+  width: 325px;
+  height: 650px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin: 30px;
+
+}
+input{
+  padding-left: 15px;
+  margin-top: 15px ;
+  width: 280px;
+  height: 50px;
+  border-radius: 3px;
+  border-style: solid;
+  font-size: large;
+  
+}
+hr{
+  margin: 50px;
+  width: 220px;
+  border-color: rgb(212, 205, 205);
+}
+.singin-google-facebook{
+  margin: 0 20px 0 50px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.google-facebook-icon{
+  width: 55px;
+  height: 55px;
+  transition: 0.2s;
+  background-color: white;
+  border-radius: 50px;
+  border-style: none;
+}
+.google-facebook-icon:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 2rem rgba(0 0 0 / .3);
+
+}
+.principal-button-dark{
+  margin-top: 40px;
+  width: 280px;
+  height: 50px;
+  background-color: rgb(31,13,58);
+  color: white;
+  font-size: large;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 10px 5px 5px rgba(37, 37, 37, 0.1);
+  
+}
+.principal-button-dark:hover{
+  background-color:rgba(0,212,255,1);
+  color: black;
+  transform: scale(1.05);
+  cursor: pointer;
+
+}
+
+#backP{
+  display: flex;
+  margin-left: 35px;
+  text-align: center;
+  width: 33px;
+  height: 25px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+
+
+/* Pag de Login */
+
+.title-two{
+  color: white;
+  font-size: larger;
+  
+  padding-right: 100px;
+}
+span{
+  font-size: small;
+}
+.sing-in-form{
+  width: 325px;
+  height: 650px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.correo, .password{
+  border: 1px solid white;
+  background-color: transparent;
+}
+.correo, .password::placeholder {
+  color: white;
+}
+.logo-blanco{
+  margin-left: 120px;
+  background-image: url(./img/logo-blanco.png);
+  width: 180px;
+  height: 180px;
+  background-repeat: no-repeat;
+}
+.sing-in-father{
+  margin: 100px 0px 100px 0px;
+}
+
+
+
+/* Pag de Post */
+
+
+.container-presentation{
+  width: 355px;
+  height: 90px;
+  background: linear-gradient(90deg, rgba(31,13,58,1) 35%, rgba(0,212,255,1) 100%);
+  border-radius: 0 0 30px 0;
+  padding-top: 30px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+ padding-right:30px;
+ 
+ position:fixed;
+ top:0;
+}
+
+.container-background{
+  background-color: #F1F1F1;
+  width: 355px;
+  min-height: 812px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-logo{
+  background-image: url(./img/logo-post-movil.png);
+  height: 100px;
+  width: 180px;
+  background-repeat: no-repeat;
+  padding-top:100px;
+
+}
+.btn-finish{
+  border: none;
+  background-color: transparent; 
+  margin-bottom: 35px;
+}
+.btn-finish:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  
+}
+
+.container-close{
+ background-color: red;
+  height: 30px;
+  width: 30px;
+
+}
+
+
+.section-post{
+  
+  background-color: #F5F5F5;
+  border-radius: 8px;
+  padding: 5px;
+  width: 340px;
+  margin-left: 8px;
+}
+
+.compartir{
+  background-color: rgb(31,13,58);
+  color: white;
+  padding: 5px 10px ;
+  border-radius: 5px;
+  border: none;
+
+
+  
+}
+
+.text-area-post{
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border: solid 1px rgb(197, 197, 197);
+  
+}
+
+
+.container-photo-post{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.container-name-picture{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+  text-align: center;
+
+}
+
+h3{
+  text-align: center;
+  justify-content: center;
+  padding-top: 8px;
+  
+
+}
+
+
+/*POST*/
+.card{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.user{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+.name{
+  padding: 5px 0 0 5px  ;
+}
+.user-name{
+  display: flex;
+  flex-direction: row;
+
+}
+.btn-delete, .btn-edit{
+  background-color: transparent;
+  border: none;
+ 
+}
+.btn-delete:hover, .btn-edit:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgb(149, 154, 154);
+
+}
+.container-text-post{
+  margin-top: 10px;
+  padding: 5px;
+  text-align: left;
+  width: 100%;
+  background-color: #F5F5F5;
+  height: auto;
+  overflow: hidden;
+ 
+}
+
+
+/* .register-presentation{
+  margin: 40px;
+  width: 570px;
+  height: 950px;
+  background-color: white;
+}
+.register-form{
+  margin: 40px;
+  width: 650px;
+  height: 950px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+input{
+  margin-top: 20px ;
+  width: 445px;
+  height: 70px;
+  border-radius: 5px;
+  border-style: solid;
+  font-size: larger;
+}
+
+hr{
+  margin: 50px 90px 50px ;
+  width: 445px;
+  border-color: rgb(212, 205, 205);
+}
+.google-icon{
+  width: 40px;
+  height: 40px;
+  transition: 0.2s;
+
+}
+.google-icon:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 2rem rgba(0 0 0 / .3);
+
+}
+.x{
+  padding-top: 40px;
+  margin: 0px;
+  color: rgb(212, 205, 205) ;
+  font-size: larger;
+}
+/*.input-wrapper {
+  position: relative;
+  width: 271px;
+}
+
+.input {
+  box-sizing: border-box;
+  color: #191919;
+  padding: 15px 15px 15px 35px;
+  width: 100%;
+}
+
+
+
+.icon {
+  color: #191919;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+ Botones
+ .principal-button {
+  margin-top: 50px;
+  width: 445px;
+  height: 56px;
+    --green: #1BFD9C;
+    font-size: 15px;
+    padding: 0.7em 2.7em;
+    letter-spacing: 0.06em;
+    position: relative;
+    font-family: inherit;
+    border-radius: 0.6em;
+    overflow: hidden;
+    transition: all 0.3s;
+    line-height: 1.4em;
+    border: 2px solid var(--green);
+    
+    background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+    color: var(--green);
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+  }
+  
+  .principal-button:hover {
+    color: #82ffc9;
+    box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+  }
+  
+  .principal-button:before {
+    content: "";
+    position: absolute;
+    left: -4em;
+    width: 4em;
+    height: 100%;
+    top: 0;
+    transition: transform .4s ease-in-out;
+    background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+  }
+  
+  .principal-button:hover:before {
+    transform: translateX(15em);
+  } 
+
+.principal-button{
+  margin-top: 550px;
+  width: 300px;
+  height: 56px;
+  background-color: #1F0D3A;
+  color: white;
+  font-size: large;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 10px 5px 5px rgba(182, 180, 180, 0.5);
+  position: absolute;
+  z-index: 0;
+  
+
+  
+}
+.principal-button:hover{
+  background-color: #1BFD9C;
+  color: black;
+  transform: scale(1.05);
+
+}
+
+.google-icon{
+  border-style: none;
+  border-radius: 50px;
+  
+  transform: scale(1.5);
+}
+
+.google{
+  background-color: white;
+  
+}
+  
+.div-post{
+  margin-top: 50px;
+  width: 100%;
+  background-color: white;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+textarea{
+
+  width: 80%;
+  min-height: 50px;
+  align-items: center;
+  border-style: solid;
+  
+}
+nav{
+  margin-top: 5px;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  
+}
+
+main{
+  width: 100%;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  margin: 50px;
+}
+section{
+  width: 80%;
+  
+
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+} */
+    
